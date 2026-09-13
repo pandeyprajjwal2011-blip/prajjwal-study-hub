@@ -1,17 +1,122 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Prajjwal Study Hub</title>
-</head>
-<body style="text-align:center;font-family:Arial;">
-<h1>📚 Prajjwal Study Hub</h1>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<button>Maths</button>
-<button>Science</button>
-<button>SST</button>
-<button>English</button>
-<button>Hindi</button>
-<button>AI</button>
+<title>Prajjwal Study Hub</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#1e3c72,#2a5298);
+min-height:100vh;
+color:white;
+text-align:center;
+}
+
+.header{
+padding:40px 20px;
+}
+
+.header img{
+width:180px;
+height:180px;
+border-radius:50%;
+border:5px solid white;
+object-fit:cover;
+box-shadow:0 0 20px rgba(255,255,255,0.5);
+}
+
+h1{
+margin-top:20px;
+font-size:45px;
+}
+
+p{
+font-size:20px;
+margin-top:10px;
+}
+
+.subjects{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+padding:40px;
+}
+
+.btn{
+text-decoration:none;
+color:white;
+font-size:24px;
+font-weight:bold;
+padding:20px 40px;
+border-radius:15px;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.1);
+}
+
+.maths{background:#ff5722;}
+.science{background:#4caf50;}
+.sst{background:#9c27b0;}
+.english{background:#2196f3;}
+.hindi{background:#e91e63;}
+.ai{background:#ff9800;}
+
+.footer{
+padding:20px;
+font-size:18px;
+}
+
+.book{
+font-size:60px;
+margin-top:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+<div class="book">📚</div>
+
+<h1>Prajjwal Study Hub</h1>
+
+<p>Class 10 CBSE Study Website</p>
+
+</div>
+
+<div class="subjects">
+
+<a href="#" class="btn maths">📐 Maths</a>
+
+<a href="#" class="btn science">🧪 Science</a>
+
+<a href="#" class="btn sst">🌍 SST</a>
+
+<a href="#" class="btn english">📖 English</a>
+
+<a href="#" class="btn hindi">✍ Hindi</a>
+
+<a href="#" class="btn ai">🤖 AI</a>
+
+</div>
+
+<div class="footer">
+Made By Prajjwal Pandey ❤️
+</div>
 
 </body>
 </html>
